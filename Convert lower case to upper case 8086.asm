@@ -1,9 +1,8 @@
 .MODEL SMALL
 .STACK 100H
 .DATA
-
     S DB "hello$"        ;Define a lower case string
-    
+
 .CODE
     
     MOV AX, @DATA        ;Get data into the segment
