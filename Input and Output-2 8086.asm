@@ -24,8 +24,7 @@
     OUTPUT_2:
     MOV DL,BL       ;Move 2nd Output to DL
     INT 21H         ;DIsplay 2nd Output
-
-    
+   
     EXIT:
     MOV AH,4CH      ;DOS Exit Function
     INT 21H         
