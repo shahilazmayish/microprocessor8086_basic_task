@@ -1,8 +1,7 @@
 .MODEL SMALL
 .STACK 100H
 .DATA   
-    S DB "Enter Two Digits: $"
-    
+    S DB "Enter Two Digits: $"    
 .CODE
     MOV AX, @DATA
     MOV DS, AX   
