@@ -9,8 +9,7 @@
  
     MOV AX, @DATA          ;Get data into the segment
     MOV DS, AX             ;Initailize DS
-     
-     
+       
      
 ;A1[0] to A2[0]
     MOV BL,A1[0]           ;Move value fron A1 Array
