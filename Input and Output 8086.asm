@@ -17,7 +17,6 @@
     MOV DL,BH       ;Move output from BH to DL
     INT 21H         ;Display Output
 
-    
     EXIT:
     MOV AH,4CH      ;DOS Exit Function
     INT 21H         
