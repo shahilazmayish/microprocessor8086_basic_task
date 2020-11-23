@@ -10,7 +10,6 @@
     
     MOV [SI],DL    ;Store First number to SI Location
                   
-    
     INC SI         ;GET Next SI location
     
     INC DL         ;Get Next number = 1
