@@ -11,7 +11,6 @@
     INT 21H         ;Take 2nd Input in AL
     MOV BL,AL       ;2nd Input moved to BL
     
-    
     OUTPUT_2a:
     MOV AH,2        ;Single Output key Function
     MOV DL,BL       ;Move 2nd output to DL
@@ -57,7 +56,6 @@
     OUTPUT_1c:
     MOV DL,BH       ;Moved 1st Output to DL
     INT 21H         ;Display 1st Output
-
 
     EXIT:
     MOV AH,4CH      ;DOS Exit Function
